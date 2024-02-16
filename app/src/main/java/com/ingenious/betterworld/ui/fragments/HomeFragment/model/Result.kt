@@ -1,5 +1,8 @@
 package com.ingenious.betterworld.ui.fragments.HomeFragment.model
 
+import androidx.annotation.Keep
+
+@Keep
 
 data class Result(
     val checkOutToo: Boolean,
